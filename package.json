@@ -1,0 +1,19 @@
+{
+  "name": "xxp-data-handle",
+  "version": "1.0.0",
+  "description": "常用的数据处理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxuepu/xxp-data-handle.git"
+  },
+  "author": "epo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuxuepu/xxp-data-handle/issues"
+  },
+  "homepage": "https://github.com/xuxuepu/xxp-data-handle#readme"
+}
