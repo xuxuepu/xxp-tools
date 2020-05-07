@@ -1,19 +1,24 @@
 {
-  "name": "xxp-data-handle",
+  "name": "xxp-xxp-tools",
   "version": "1.0.0",
   "description": "常用的数据处理工具",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuxuepu/xxp-data-handle.git"
+    "url": "git+https://github.com/xuxuepu/xxp-tools.git"
   },
   "author": "epo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xuxuepu/xxp-data-handle/issues"
+    "url": "https://github.com/xuxuepu/xxp-tools/issues"
   },
-  "homepage": "https://github.com/xuxuepu/xxp-data-handle#readme"
+  "homepage": "https://github.com/xuxuepu/xxp-tools#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/register": "^7.0.0"
+  }
 }
