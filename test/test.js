@@ -6,4 +6,7 @@ let testMap = {
     c: 3,
 }
 let newTestMap = DataHandle.deleteMapKeys(testMap, ['a']);
-console.log(newTestMap);
+console.log('删除map中的key：', newTestMap);
+
+let date = DataHandle.formatDate(new Date(), 'yyyy-MM-dd hh:ms:ss');
+console.log(date);
